@@ -16,7 +16,8 @@ function App() {
     const [contries, setContries] = useState([]);
     const [searchCountry, setSearchCountry] = useState("");
     const [loader, setLoader] = useState(true);
-const test = useState("");
+const newVar = useState("");
+    const newVar2 = useState("");
     const getAllCountry = async () => {
         try {
             setLoader(true);
